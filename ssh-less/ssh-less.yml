@@ -1,0 +1,6 @@
+---
+- name: Create ssh-less login to hosts
+  hosts: all
+  become: true
+  roles: 
+    - maindir

@@ -1,0 +1,6 @@
+---
+# handlers file for maindir
+- name: restart ssh
+  service:
+    state: restarted
+    name: sshd
