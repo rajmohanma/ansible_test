@@ -1,6 +1,6 @@
 ---
 # tasks file for maindir
-- name: Add a new user named ansible
+   - name: Add a new user named ansible
      user:
           name={{username}}
           password={{ ansible_password }}

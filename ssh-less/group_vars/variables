@@ -1,4 +1,2 @@
----
-# vars file for maindir
 username: ansible
 ansible_password: 123
